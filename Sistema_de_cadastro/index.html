@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de anuncio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="Cadastro.js"></script>
+</head>
+<body>
+    <div id="divform">
+        <form>
+            <table id="tableform">
+                <caption>Cadastrar Anúncio</caption>
+                <tr>
+                    <td style="text-align: center;">Nome do Anúncio:</td>
+                    <td><input id="nomeAd" type="text"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Cliente:</td>
+                    <td><input id="cliente" type="text"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Data de Inicio:</td>
+                    <td style="text-align: center;"><input type="date" name="" id="dataI"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Data de Término:</td>
+                    <td style="text-align: center;"><input  type="date" name="" id="dataF"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Investimento por Dia:</td>
+                    <td><input type="number" name="" id="investDia" placeholder="R$"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input class="btn-form" type="button" value="Cadastrar" onclick="validaCadastro('nomeAd','cliente','investDia','dataI','dataF')">
+                        <input class="btn-form" type="reset" value="Limpar">
+                        <input class="btn-form" type="button" value="Relatório" onclick="adicionarDados()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>  
+
+    
+    <div id="divtable">
+        <div id="tabelaDinamica"></div>
+        <div id="divbutton">
+            <button id="resetar" onclick="location.reload()" style="display: none;">Fechar</button>
+        </div>
+    </div>
+    
+    
+    
+    
+</body>
+</html>

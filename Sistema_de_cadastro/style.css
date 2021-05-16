@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 98%;
+}
+
+body div form{
+    text-align: -webkit-center;
+}
+
+#divtable{
+    margin-top: 100px;
+    text-align: -webkit-center;
+}
+#divbutton{
+    margin-top: 30px;
+}
+#tabelaDinamica table tbody tr, #tabelaDinamica table tbody th,#tabelaDinamica table tbody td{
+    text-align: center;
+    background-color: rgb(140, 156, 194);
+    border-radius:4%;
+}
+#tableform{
+    font-weight: bold;
+}
+#tableform tbody tr,#tableform tbody td{
+    background-color: rgb(140, 156, 194);
+    border-radius: 3px;
+
+}
+.btn-form{
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(228, 233, 240);
+    cursor: pointer;
+    
+}
+.btn-form:active{
+    background-color: rgb(140, 156, 194);
+}
+
+#resetar{
+    background-color: rgb(204, 206, 209);
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#resetar:active{
+    background-color: rgb(106, 135, 173);
+
+}
+caption{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif
+}
