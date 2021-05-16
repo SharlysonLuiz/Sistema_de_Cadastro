@@ -1,6 +1,14 @@
+/* DESCRIÇÃO*/
+
+Sistema_de_cadastro é um simples programa web de cadastro a fim de cadastrar anuncios preenchendo os dados e 
+retornando uma tabela com o resultado dos dados passados pelo cliente.A tabela exibe dados como o total de 
+cliques que o anuncio recebeu,total de visualização,valor investido total,mediante a quantidade de dias que 
+o cliente optou em selecionar,entre outros dados.
 
 
-/* DOCUMENTAÇÃO*/
+
+
+/* DOCUMENTAÇÃO */
 
 A função validaCadastro() recebe valores dos input's e realiza a validação, se o 
     usuario não deixou nenhum campo em branco,se não deixou,a função irá executar e 
